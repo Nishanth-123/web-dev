@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.coloured-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+	background-color: #fff;
+}
+
+/*Container Fluid*/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/*Navigation*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/*Title*/
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.titleImage-container {
+    position: relative;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*Features*/
+
+#features {
+    position: relative;
+}
+
+.feature {
+    line-height: 1.5rem;
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.feature-icon : hover {
+    color: #ff4c68;
+}
+
+.feature-name {
+    font-size: 1.5rem;
+}
+
+
+/*Testimonials*/
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+
+
+/*Press*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-icon {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+
+.pricing-heading {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/*Call to action*/
+
+.cta-heading {
+    line-height: 1.5;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+}
+
+.contact-icon {
+    margin: 0 5px;
+}
+
+#footer p {
+    padding: 1% 0;
+}
+
+@media (max-width: 1028px) {
+    .title-row {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+    }
+}
